@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+.search-input-cs {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    border: 1px solid #e5e7eb;
+    position: relative;
+    top: 1px;
+}
+.search-input-cs .absolutetop-3dsfkjds {
+position: absolute;
+top: 15px;
+}
+.matching-data  {
+    width: 120px;
+}
+.matching-data ul {
+    padding: 0 10px;
+    height: 180px;
+    overflow: auto;
+}
+.perent-bx {
+    position: relative;
+}
+.country-dr-pr {
+    position: absolute;
+    top: 0;
+    width: 97px;
+}
+.addCustomClass {
+    padding-left: 75px;
+}
